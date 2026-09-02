@@ -12,3 +12,11 @@ endpoints:
       titleModel: "mistral-small-latest"
       modelDisplayLabel: "Mistral"
       dropParams: ["user", "frequency_penalty", "presence_penalty"]
+
+mcpServers:
+  stalgast-db:
+    command: npx
+    args:
+      - "-y"
+      - "@ahmetkca/mcp-server-postgres"
+      - "${PG_CONNECTION_STRING}"

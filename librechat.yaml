@@ -4,7 +4,7 @@ endpoints:
   custom:
     - name: "Mistral"
       apiKey: "${MISTRAL_API_KEY}"
-      baseURL: "https://api.mistral.ai/v1"
+      baseURL: "https://api.eu.mistral.ai/v1"
       models:
         default: ["mistral-small-latest", "mistral-large-latest"]
         fetch: true
